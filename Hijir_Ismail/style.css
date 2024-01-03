@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Montserrat:wght@100&display=swap');
+
+
+.body, html{
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    min-height: 100px;
+    background-color: transparent;
+  }
+
+  .navbar .header{
+    margin-left: auto;
+    margin-right: 80px;
+    
+  }
+  
+  .navbar .header a{
+    text-decoration: none;
+    padding: 8px 20px;
+    color: white;
+    border-radius: 3px;
+    font-size: 16px;
+    line-height: 24px;
+
+  }
+  
+  .navbar #redirect{
+    padding: 5px;
+    color: white;
+    background: transparent;
+    
+  }
+  
+  .header a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition: .3s ease-in-out;
+  }
+  
+  .navbar li {
+    margin: 0 50px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .menu-toggle span{
+    cursor: pointer;
+    display: none;
+    background-color: #232340;
+}
+  
+  .logo img {
+    width: 138px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+  }
+  
+  .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+  }
+  
+  li .buttons {
+    background-color: rgba(84, 104, 231, 0.5);
+    padding: 10px 44px 10px 44px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    border-radius: 3px;
+    text-decoration: none;
+  }
+  
+  
+  .buttons:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition: .3s ease-in-out;
+  }
+
+  .content {
+    width: 100%;
+    margin-top: -100px;
+    background-size: cover;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    background-position: center;
+    min-height: 710px;
+    background-image:url(img/bg_christina.png);
+  }
+
+  .area {
+    color: white;
+    display: flex;
+    margin-left: 200px;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 70px;
+  }
+  
+  .area h1 {
+    font-size: 50px;
+    word-spacing: 5px;
+    line-height: 64px;
+  }
+  
+  .area h4 {
+    margin-top: -30px;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 27px;
+  }
+  
+  .search {
+    flex-direction: row;
+    margin-top: 10px;
+
+  }
+  
+  .box {
+    width: 298px;
+    height: 47px;
+    text-align: left;
+    padding-left: 10px;
+  }
+  
+  .start {
+    background-color: #5468E7;
+    width: 233px;
+    max-height: 47px;
+    padding: 10px 47px 11px 47px;
+    font-size: 18px;
+    line-height: 23px;
+    text-decoration: none;
+    color: white;
+    margin: 0! important;
+  
+  }
+  
+  .start:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition: .3s ease-in-out;
+  }
+  
+  .area h4 {
+    margin-top: 10px;
+    font-weight: normal;
+  }
+
+
+  .main-content {
+    width: 100%;
+    min-height: 460px;
+    background-color: rgb(252, 252, 252);
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: left;
+    
+  }
+  
+  .main-content img {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    object-fit: contain;
+    object-position: center;
+    align-self: center;
+    max-width: 100%;
+    height: 350px;
+  }
+  
+  .main-content .image {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    object-fit: contain;
+  }
+
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 375px;
+    background-color: #232340;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content:space-around;
+  
+  }
+  
+  .footercon {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 50px;
+    background-color: transparent;
+  }
+  
+  .footer .flex1 {
+    color:#999;
+    justify-content:space-around;
+    align-items:flex-start;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    width:100%;
+    font-size: 17px;
+    min-height: 30px;
+  
+  }
+  
+  .footer .flex1 h5 {
+    align-self:flex-start;
+  }
+
+
+  .list {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    min-height:50px;
+    font-size: 13px;
+    padding: 0px 70px;
+    text-align: left;
+    list-style-type: none;
+  }
+
+  .list img{
+    margin-bottom: 20px;
+  }
+
+  .list1 h3{
+    color: #5468E7;
+  }
+
+  
+  .list1 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+    min-height:50px;
+    font-size: 13px;
+    padding: 0px 70px;
+    text-align: left;
+  }
+
+  .list1 ul{
+    display: flex;
+    position: relative;
+  }
+  
+  .list1 li {
+    font-size: 13px;
+    margin: 7px -10px;
+    list-style-type: none;
+    text-align: left;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-items: center;
+    align-self: flex-start;
+    justify-content: center;
+  }
+  
+  li a {
+    color: #F5F5F5;
+    text-align: center;
+    line-height: 23px;
+    text-decoration: none;
+    font-size: 14px;
+    
+  }
+
+  .search-b {
+    flex-direction: row;
+    margin-top: 10px;
+
+  }
+
+  .box-b {
+    width: 268x;
+    height: 30px;
+    text-align: left;
+    padding-left: 10px;
+    background-color: rgb(255, 255, 255, 0.24);
+  }
+  
+
+  .end {
+    width:156px;
+    justify-content:space-around;
+    align-items:flex-start;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    color:#F5F5F5;
+    margin-top:-60px;
+  }
+  
+  .end p {
+    display:flex;
+    flex-direction: row;
+    font-size:16px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .header {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+    }
+
+    .header.show {
+        display: flex;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+  body{
+    display: contents;
+  }
+
+  .content{
+    display: block;
+
+  }
+  
+  .menu-toggle{
+    display: block;
+  }
+
+  .header {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+
+.header.show {
+    display: flex;
+}
+  
+}
+
